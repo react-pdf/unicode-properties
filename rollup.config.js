@@ -18,7 +18,7 @@ const configBase = {
     exclude: 'node_modules/**'
   })],
   output: [
-    getESM({ file: 'dist/unicode-properties.esm.js' }),
+    getESM({ file: 'dist/unicode-properties.es.js' }),
     getCJS({ file: 'dist/unicode-properties.cjs.js' }),
   ]
 }
